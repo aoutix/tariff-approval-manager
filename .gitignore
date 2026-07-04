@@ -1,0 +1,29 @@
+# --- Python / backend ---
+backend/.venv/
+__pycache__/
+*.pyc
+*.pyo
+backend/tariff.db
+*.db
+*.sqlite
+*.sqlite3
+.pytest_cache/
+
+# --- Node / frontend ---
+frontend/node_modules/
+frontend/dist/
+npm-debug.log*
+
+# --- Secrets / env ---
+.env
+.env.*
+*.pem
+*.key
+
+# --- Editor / OS ---
+.DS_Store
+.vscode/
+.idea/
+
+# --- Claude Code local config (not project source) ---
+.claude/
